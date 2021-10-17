@@ -1,0 +1,36 @@
+@media screen and (max-width: 992px){
+    .header .navbar-nav .nav-item .divider{
+        display: none;
+    }
+
+    .secao-topo{
+        flex-direction: column;
+        height: auto;
+        padding: 3rem;
+    }
+
+    .secao-topo h1{
+        font-size: 3rem;
+    }
+
+    .secao-topo div:nth-child(1){
+        display: none;
+    }
+
+    .secao-vantagens{
+        height: auto;
+    }
+
+    .secao-vantagens h1{
+        padding-bottom: 1rem;
+    }
+
+    .secao-gratis{
+        padding: 1rem;
+    }
+
+    .secao-gratis h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+}
