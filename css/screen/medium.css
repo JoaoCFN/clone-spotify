@@ -25,12 +25,44 @@
         padding-bottom: 1rem;
     }
 
+    .secao-vantagens h4{
+        padding-top: 1rem;
+    }
+
     .secao-gratis{
         padding: 1rem;
     }
 
-    .secao-gratis h1{
+    .secao-gratis h1,
+    .secao-baixar-spotify h1{
         text-align: center;
         font-size: 2rem;
+    }
+
+    .secao-baixar-spotify{
+        padding: 1rem;
+    }
+
+    .footer{
+        padding: 2rem 0;
+        height: auto;
+    }
+
+    .footer img{
+        width: 6rem;
+    }
+
+    .footer #area-redes-sociais{
+        justify-content: start;
+    }
+    
+    .footer .copiright{
+        gap: 2rem;
+        padding-top: .6rem;
+    }
+
+    .footer .copiright small{
+        padding: 0 .2rem;
+        font-size: .6rem;
     }
 }

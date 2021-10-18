@@ -7,6 +7,10 @@
     color: var(--gray);
 }
 
+.spot-color-gray-dark{
+    color: var(--gray-dark);
+}
+
 /* Bakcgrounds */
 .spot-bg-black{
     background: var(--black);
@@ -36,6 +40,12 @@
     justify-content: center;
 }
 
+.spot-flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* Buttons */
 .spot-btn-white{
     display: flex;
@@ -45,8 +55,9 @@
     background: var(--white);
     color: var(--black);
 
-    padding: .6rem 2.8rem;
+    padding: .8rem 3rem;
     border-radius: 1.6rem;
+    font-size: .9rem;
 
     text-transform: uppercase;
 
@@ -57,3 +68,22 @@
     transform: scale(1.05);
 }
 
+.spot-btn-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--black-secondary);
+    color: var(--white);
+
+    font-size: 1.4rem;
+    padding: 1rem;
+
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 50%;
+}
+
+.spot-btn-circle:hover{
+    color: var(--green);
+}

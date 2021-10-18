@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Fontawesome -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css" integrity="sha512-p++g4gkFY8DBqLItjIfuKJPFvTPqcg2FzOns2BNaltwoCOrXMqRIOqgWqWEvuqsj/3aVdgoEo2Y7X6SomTfUPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="assets/libs/fontawesome/fontawesome.css">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<!-- CSS -->
@@ -37,7 +37,7 @@
 					aria-expanded="false" 
 					aria-label="Toggle navigation"
 				>
-					<span class="navbar-toggler-icon"></span>
+					<i class="fa fa-bars"></i>
 				</button>
 			  
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -88,7 +88,7 @@
 						graça.
 					</h1>
 					<button
-						class="btn spot-btn-white mt-4"
+						class="btn spot-btn-white spot-font-900 mt-4"
 					>
 						Baixe o spotify free
 					</button>
@@ -102,7 +102,7 @@
 					</h1>
 
 					<div class="row text-center">
-						<div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-3">
 							<img 
 								src="assets/play.png" 
 								alt="play"
@@ -114,7 +114,7 @@
 								Ouça suas músicas prediletas e descubra novas músicas e podcasts.
 							</h6>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-3">
 							<img 
 								src="assets/bars.png" 
 								alt="bars"
@@ -126,7 +126,7 @@
 								Vamos te ajudar a criar playlists. Ou você pode curtir playlists criadas por especialistas em música.
 							</h6>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-3">
 							<img 
 								src="assets/heart.png" 
 								alt="heart"
@@ -138,7 +138,7 @@
 								Conte pra gente o que você gosta de ouvir, e nós vamos recomendar músicas para você.
 							</h6>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-3">
 							<img 
 								src="assets/ray.png" 
 								alt="ray"
@@ -158,15 +158,124 @@
 				<h1 class="spot-font-900">É grátis.</h1>
 				<h1 class="spot-font-900">Não precisa de cartão de crédito.</h1>
 			</section>
+
+			<section class="secao-duvidas">
+				<article class="container mt-4 mb-4">
+					<h1 class="spot-font-900 text-center">
+						Alguma dúvida?
+					</h1>
+				</article>
+			</section>
+
+			<section class="secao-baixar-spotify spot-color-white">
+				<h1 class="spot-font-900">Gostou? Então aperte o play.</h1>
+				<button
+					class="btn spot-btn-white spot-font-900 mt-3"
+				>
+					Baixe o spotify free
+				</button>
+			</section>
 		</main>
 
 		<!-- Footer -->
-		<footer></footer>
+		<footer class="footer spot-bg-black">
+			<article class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-sm-12">
+						<img 
+							src="assets/spotify-logo.svg" 
+							class="img-fluid logo"
+							alt="spotify" 
+						/>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12">
+						<h6 class="spot-color-gray-dark mt-3 mb-3">
+							EMPRESA
+						</h6>
+						<p class="spot-color-white">
+							Sobre
+						</p>
+						<p class="spot-color-white">
+							Empregos
+						</p>
+						<p class="spot-color-white">
+							For the Record
+						</p>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-12">
+						<h6 class="spot-color-gray-dark mt-3 mb-3">
+							COMUNIDADES
+						</h6>
+						<p class="spot-color-white">
+							Para Artistas
+						</p>
+						<p class="spot-color-white">
+							Desenvolvedores
+						</p>
+						<p class="spot-color-white">
+							Publicidade
+						</p>
+						<p class="spot-color-white">
+							Investidores
+						</p>
+						<p class="spot-color-white">
+							Fornecedores
+						</p>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-12">
+						<h6 class="spot-color-gray-dark mt-3 mb-3">
+							LINKS ÚTEIS
+						</h6>
+						<p class="spot-color-white">
+							Suporte
+						</p>
+						<p class="spot-color-white">
+							Player da Web
+						</p>
+						<p class="spot-color-white">
+							Aplicativo móvel grátis
+						</p>
+					</div>
+					<div 
+						class="col-lg-4 col-md-3 col-sm-12"
+						id="area-redes-sociais"
+					>
+						<button class="btn spot-btn-circle">
+							<i class="fab fa-instagram"></i>
+						</button>
+						<button class="btn spot-btn-circle">
+							<i class="fab fa-twitter"></i>
+						</button>
+						<button class="btn spot-btn-circle">
+							<i class="fab fa-facebook-f"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="copiright spot-flex-between spot-color-gray-dark">
+					<div>
+						<small>Legal</small>
+						<small>Centro de Privacidade</small>
+						<small>Legal</small>
+						<small>Politica de Privacidade</small>
+						<small>Cookies</small>
+						<small>Sobre anúncios</small>
+					</div>
+					<div>
+						<small>Brasil</small>
+						<br>
+						<small>&copy; 2021 Spotfy AB</small>
+					</div>
+				</div>
+			</article>
+		</footer>
 			
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- Fontawesome -->
+		<script src="assets/libs/fontawesome/fontawesome.js"></script>
 	</body>
 </html>

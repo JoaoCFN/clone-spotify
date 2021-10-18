@@ -2,6 +2,11 @@
     width: 8rem;
 }
 
+.header .navbar .navbar-toggler svg{
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
 .header .navbar-nav .nav-item{
     padding: 0 .7rem;
 }
@@ -58,7 +63,7 @@
     align-items: center;
     justify-content: center;
 
-    height: 75vh;
+    height: 80vh;
 }
 
 .secao-vantagens h1{
@@ -86,6 +91,57 @@
 
 .secao-gratis h1{
     font-size: 3rem;
+}
+
+.secao-baixar-spotify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    height: 60vh;
+    background: 
+        url(https://www.scdn.co/i/free/lets-play.svg) 
+        left -10px bottom -220px / 100% 1114px no-repeat, 
+        linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+}
+
+.secao-baixar-spotify h1{
+    font-size: 4.4rem;
+}
+
+.secao-duvidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 80vh;
+}
+
+.footer{
+    padding: 6rem 0;
+
+    height: 80vh;
+}
+
+.footer #area-redes-sociais{
+    display: flex;
+    gap: 1rem;
+
+    justify-content: end;
+}
+
+.footer .copiright{
+    padding-top: 4rem;
+}
+
+.footer .copiright small{
+    padding: 0 .6rem;
+}
+
+.footer .copiright div:last-child > small{
+    text-align: right;
 }
 
 
