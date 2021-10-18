@@ -3,6 +3,10 @@
     color: var(--white);
 }
 
+.spot-color-black{
+    color: var(--black);
+}
+
 .spot-color-gray{
     color: var(--gray);
 }
@@ -14,6 +18,10 @@
 /* Bakcgrounds */
 .spot-bg-black{
     background: var(--black);
+}
+
+.spot-bg-white{
+    background: var(--white);
 }
 
 /* Fonts */

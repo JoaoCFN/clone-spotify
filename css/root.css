@@ -12,7 +12,9 @@ body{
     --black: #000;
     --black-secondary: #222326;
     --white: #fff;
+    --white-secondary: #F6F6F6;
     --green: #1ED760;
+    --green-dark: #117A37;
     --gray: #d9dadc;
     --gray-dark: #919496;
 }

@@ -164,6 +164,166 @@
 					<h1 class="spot-font-900 text-center">
 						Alguma dúvida?
 					</h1>
+
+					<div 
+						id="accordion"
+						class="mt-4 mb-4"
+					>
+						<div class="card">
+							<div class="card-header" id="headingOne">
+								<h5 
+									class="spot-flex-between mb-0"
+									data-toggle="collapse" 
+									data-target="#collapseOne" 
+								>
+									<div>
+										<button 
+											class="btn btn-link spot-color-black spot-font-900" 
+											aria-expanded="true" 
+											aria-controls="collapseOne"
+										>
+											Como faço para criar uma playlist?
+										</button>
+									</div>
+									<div>
+										<i 
+											class="fa fa-chevron-down"
+										></i>
+									</div>
+								</h5>
+							</div>
+						
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="card-body">
+									<div class="container">
+										<p>
+											As playlists são uma ótima maneira de criar coleções de músicas, seja para só você ouvir ou para compartilhar.
+										</p>
+	
+										<p>Para criar uma:</p>
+	
+										<p>
+											1. Clique na “Sua Biblioteca”. <br>
+											2. Clique em <span>CRIAR</span>. <br>
+											3. Dê um nome para a playlist. <br>
+											4. Comece a incluir algumas músicas (enquanto recomendamos outras).
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<h5 
+									class="spot-flex-between mb-0"
+									data-toggle="collapse" 
+									data-target="#collapseTwo" 
+								>
+									<div>
+										<button 
+											class="btn btn-link collapsed spot-color-black spot-font-900" 
+											aria-expanded="false" 
+											aria-controls="collapseTwo"
+										>
+											Como faço para ativar o modo de Economia de dados?
+										</button>
+									</div>
+
+									<div>
+										<i 
+											class="fa fa-chevron-down"
+										></i>
+									</div>
+								</h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								<div class="card-body">
+									<div class="container">
+										<p>
+											1. Clique em <span>Início</span>. <br>
+											2. Clique em <span>Preferências</span>. <br>
+											3. Clique em <span>Economia de dados</span>. <br>
+											4. Ative a “Economia de dados”.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header" id="headingThree">
+								<h5 
+									class="spot-flex-between mb-0"
+									data-toggle="collapse" 
+									data-target="#collapseThree" 
+								>
+									<div>
+										<button 
+											class="btn btn-link collapsed spot-color-black spot-font-900" 
+											aria-expanded="false" 
+											aria-controls="collapseThree"
+										>
+											Só é possível ouvir música em ordem aleatória?
+										</button>
+									</div>
+									<div>
+										<i 
+											class="fa fa-chevron-down"
+										></i>
+									</div>
+								</h5>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+								<div class="card-body">
+									<div class="container">
+										<p>
+											As playlists com o ícone de ordem aleatória tocam dessa forma.
+										</p>
+
+										<p>
+											Nas playlists que não têm esse ícone, você pode tocar em qualquer música para ouvir.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header" id="headingFour">
+								<h5 
+									class="spot-flex-between mb-0"
+									data-toggle="collapse" 
+									data-target="#collapseFour"
+								>
+									<div>
+										<button 
+											class="btn btn-link collapsed spot-color-black spot-font-900"
+											aria-expanded="false" 
+											aria-controls="collapseFour"
+										>
+											Onde posso encontrar podcasts?
+										</button>
+									</div>
+									<div>
+										<i 
+											class="fa fa-chevron-down"
+											 
+										></i>
+									</div>
+								</h5>
+							</div>
+							<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+								<div class="card-body">
+									<div class="container">
+										<p>
+											Toque em <span>Buscar</span>. Em <span>Navegar por todas as seções</span>, toque em Podcasts.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</article>
 			</section>
 
@@ -180,7 +340,7 @@
 		<!-- Footer -->
 		<footer class="footer spot-bg-black">
 			<article class="container">
-				<div class="row">
+				<div class="links row">
 					<div class="col-lg-2 col-md-3 col-sm-12">
 						<img 
 							src="assets/spotify-logo.svg" 
@@ -192,50 +352,86 @@
 						<h6 class="spot-color-gray-dark mt-3 mb-3">
 							EMPRESA
 						</h6>
-						<p class="spot-color-white">
+						<a 
+							href="#"
+							class="spot-color-white"
+						>
 							Sobre
-						</p>
-						<p class="spot-color-white">
+						</a>
+						<a 
+							href="#" 
+							class="spot-color-white"
+						>
 							Empregos
-						</p>
-						<p class="spot-color-white">
+						</a>
+						<a 
+							href="#" 
+							class="spot-color-white"
+						>
 							For the Record
-						</p>
+						</a>
 					</div>
+
 					<div class="col-lg-2 col-md-3 col-sm-12">
 						<h6 class="spot-color-gray-dark mt-3 mb-3">
 							COMUNIDADES
 						</h6>
-						<p class="spot-color-white">
+						<a 
+							class="spot-color-white"
+							href="#"
+						>
 							Para Artistas
-						</p>
-						<p class="spot-color-white">
+						</a>
+						<a 
+							class="spot-color-white"
+							href="#"
+						>
 							Desenvolvedores
-						</p>
-						<p class="spot-color-white">
+						</a>
+						<a 
+							class="spot-color-white"
+							href="#"
+						>
 							Publicidade
-						</p>
-						<p class="spot-color-white">
+						</a>
+						<a 
+							class="spot-color-white"
+							href="#"
+						>
 							Investidores
-						</p>
-						<p class="spot-color-white">
+						</a>
+						<a 
+							class="spot-color-white"
+							href="#"
+						>
 							Fornecedores
-						</p>
+						</a>
 					</div>
+
 					<div class="col-lg-2 col-md-3 col-sm-12">
 						<h6 class="spot-color-gray-dark mt-3 mb-3">
 							LINKS ÚTEIS
 						</h6>
-						<p class="spot-color-white">
+						<a
+							href="#" 
+							class="spot-color-white"
+						>
 							Suporte
-						</p>
-						<p class="spot-color-white">
+						</a>
+						<a 
+							href="#" 
+							class="spot-color-white"
+						>
 							Player da Web
-						</p>
-						<p class="spot-color-white">
+						</a>
+						<a 
+							href="#" 
+							class="spot-color-white"
+						>
 							Aplicativo móvel grátis
-						</p>
+						</a>
 					</div>
+
 					<div 
 						class="col-lg-4 col-md-3 col-sm-12"
 						id="area-redes-sociais"
@@ -252,17 +448,17 @@
 					</div>
 				</div>
 
-				<div class="copiright spot-flex-between spot-color-gray-dark">
+				<div class="copiright spot-flex-between">
 					<div>
-						<small>Legal</small>
-						<small>Centro de Privacidade</small>
-						<small>Legal</small>
-						<small>Politica de Privacidade</small>
-						<small>Cookies</small>
-						<small>Sobre anúncios</small>
+						<a href="#">Legal</a>
+						<a href="#">Centro de Privacidade</a>
+						<a href="#">Legal</a>
+						<a href="#">Politica de Privacidade</a>
+						<a href="#">Cookies</a>
+						<a href="#">Sobre anúncios</a>
 					</div>
 					<div>
-						<small>Brasil</small>
+						<a href="#">Brasil</a>
 						<br>
 						<small>&copy; 2021 Spotfy AB</small>
 					</div>

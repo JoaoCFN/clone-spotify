@@ -1,3 +1,4 @@
+/* Header */
 .header .navbar .logo{
     width: 8rem;
 }
@@ -36,6 +37,7 @@
     background: var(--white);
 }
 
+/* Seção topo */
 .secao-topo{
     display: flex;
     align-items: center;
@@ -58,6 +60,8 @@
     width: 18rem;
 }
 
+/* Seção vantagens */
+
 .secao-vantagens{
     display: flex;
     align-items: center;
@@ -78,6 +82,7 @@
     width: 9rem;
 }
 
+/* Seção gratis */
 .secao-gratis{
     display: flex;
     align-items: center;
@@ -93,6 +98,43 @@
     font-size: 3rem;
 }
 
+/* Dúvidas */
+.secao-duvidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2rem 0;
+}
+
+#accordion .card{
+    border: 0;
+}
+
+#accordion .card p span{
+    color: var(--green-dark);
+}
+
+#accordion .card .card-header{
+    background: var(--white);
+    border-bottom: .05rem solid var(--gray);
+
+    transition: all 0.3s ease-out;
+}
+
+#accordion .card .card-header:hover{
+    background: var(--white-secondary);
+}
+
+#accordion .card .card-header h5 button{
+    font-size: 1.2rem;
+}
+
+#accordion .card .card-header h5 button:hover{
+    color: var(--black);
+}
+
+/* Seção baixar spotify */
 .secao-baixar-spotify{
     display: flex;
     align-items: center;
@@ -111,14 +153,7 @@
     font-size: 4.4rem;
 }
 
-.secao-duvidas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    height: 80vh;
-}
-
+/* Footer */
 .footer{
     padding: 6rem 0;
 
@@ -132,15 +167,33 @@
     justify-content: end;
 }
 
+.footer .links a{
+    display: block;
+    padding-bottom: 1rem;
+}
+
 .footer .copiright{
     padding-top: 4rem;
 }
 
-.footer .copiright small{
-    padding: 0 .6rem;
+.footer .links a,
+.footer .copiright a{
+    text-decoration: none;
 }
 
-.footer .copiright div:last-child > small{
+.footer .copiright a,
+.footer .copiright small{
+    padding: 0 .6rem;
+    font-size: .8rem;
+    color: var(--gray-dark);
+}
+
+.footer a:hover,
+.footer .copiright a:hover{
+    color: var(--green);
+}
+
+.footer .copiright div:last-child{
     text-align: right;
 }
 
